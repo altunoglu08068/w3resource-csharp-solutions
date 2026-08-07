@@ -22,6 +22,8 @@ namespace HelloAndName
 
         static void Main(string[] args)
         {
+            Console.Clear();
+
             string name;
 
             do // Metin giriş ve kontrolünü yapıyorum. 
@@ -31,7 +33,7 @@ namespace HelloAndName
             } while (IsOnlySpaces(name));
 
             Console.WriteLine("\nHello");
-            Console.WriteLine(name);
+            Console.WriteLine($"{name}\n");
         }
     }
 }

@@ -22,10 +22,12 @@ namespace SumTwoNumbers
 
         static void Main(string[] args)
         {
+            Console.Clear();
+
             int x = InputNumber("Enter the first number: ");
             int y = InputNumber("Enter the second number: ");
 
-            Console.WriteLine($"\nSum: {x} + {y} = {x + y}");
+            Console.WriteLine($"\nSum: {x} + {y} = {x + y}\n");
         }
     }
 }

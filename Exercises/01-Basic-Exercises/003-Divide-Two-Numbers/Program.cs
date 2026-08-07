@@ -22,6 +22,8 @@ namespace DivideTwoNumbers
 
         static void Main(string[] args)
         {
+            Console.Clear();
+
             int x = InputNumber("Enter the dividend (first number): ");
             int y = InputNumber("Enter the divisor (second number): ");
 
@@ -38,7 +40,7 @@ namespace DivideTwoNumbers
             else
             {
                 double divide = (double)x / y;
-                Console.WriteLine($"Conclusion: {x} / {y} = {divide:F2}");
+                Console.WriteLine($"\nConclusion: {x} / {y} = {divide:F2}\n");
             }
         }
     }
