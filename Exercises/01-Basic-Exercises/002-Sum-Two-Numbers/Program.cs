@@ -2,7 +2,7 @@
 
 namespace SumTwoNumbers
 {
-    class Program
+    internal class Program
     {
         static int InputNumber(string prompt)
         {
