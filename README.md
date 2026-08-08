@@ -16,3 +16,4 @@ w3resource üzerindeki C# egzersizlerinin konu başlıklarına göre düzenlenmi
 | 002 | Sum of Two Numbers | [w3resource #2](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-2.php) | [Program.cs](./Exercises/01-Basic-Exercises/002-Sum-Two-Numbers/) | Basic Exercises |
 | 003 | Divide Two Numbers | [w3resource #3](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-3.php) | [Program.cs](./Exercises/01-Basic-Exercises/003-Divide-Two-Numbers/) | Basic Exercises |
 | 004 | Specified Operations Results | [w3resource #4](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-4.php) | [Program.cs](./Exercises/01-Basic-Exercises/004-Specified-Operations-Results/) | Basic Exercises |
+| 005 | Swap Two Numbers | [w3resource #5](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-5.php) | [Program.cs](./Exercises/01-Basic-Exercises/005-Swap-Two-Numbers/) | Basic Exercises |
