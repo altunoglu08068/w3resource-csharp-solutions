@@ -22,25 +22,25 @@ namespace BasicArithmeticalOperations
 
         static void ShowResults(int firstNumber, int secondNumber)
         {
-            Console.WriteLine($"\n{firstNumber} + {secondNumber} = {firstNumber + secondNumber}");
-            Console.WriteLine($"{firstNumber} - {secondNumber} = {firstNumber - secondNumber}");
-            Console.WriteLine($"{firstNumber} x {secondNumber} = {firstNumber * secondNumber}");
+            Console.WriteLine($"\n{firstNumber} + {secondNumber} \t\t= {firstNumber + secondNumber}");
+            Console.WriteLine($"{firstNumber} - {secondNumber} \t\t= {firstNumber - secondNumber}");
+            Console.WriteLine($"{firstNumber} x {secondNumber} \t\t= {firstNumber * secondNumber}");
 
             if (firstNumber == 0 && secondNumber == 0)
             {
-                Console.WriteLine($"{firstNumber} / {secondNumber} = Uncertain");
-                Console.WriteLine($"{firstNumber} mod {secondNumber} = Uncertain\n");
+                Console.WriteLine($"{firstNumber} / {secondNumber} \t= Uncertain");
+                Console.WriteLine($"{firstNumber} mod {secondNumber} \t= Uncertain\n");
             }
             else if (secondNumber == 0)
             {
-                Console.WriteLine($"{firstNumber} / {secondNumber} = Undefined");
-                Console.WriteLine($"{firstNumber} mod {secondNumber} = Undefined\n");
+                Console.WriteLine($"{firstNumber} / {secondNumber} \t\t= Undefined");
+                Console.WriteLine($"{firstNumber} mod {secondNumber} \t\t= Undefined\n");
             }
             else
             {
                 double division = (double)firstNumber / secondNumber;
-                Console.WriteLine($"{firstNumber} / {secondNumber} = {division:F2}");
-                Console.WriteLine($"{firstNumber} mod {secondNumber} = {firstNumber % secondNumber}\n");
+                Console.WriteLine($"{firstNumber} / {secondNumber} \t\t= {division:F2}");
+                Console.WriteLine($"{firstNumber} mod {secondNumber} \t= {firstNumber % secondNumber}\n");
             }
         }
 
@@ -48,8 +48,8 @@ namespace BasicArithmeticalOperations
         {
             Console.Clear();
 
-            int firstNumber = InputNumber("Input the first number: ");
-            int secondNumber = InputNumber("Input the second number: ");
+            int firstNumber = InputNumber("Input the first number\t: ");
+            int secondNumber = InputNumber("Input the second number\t: ");
 
             ShowResults(firstNumber, secondNumber);
         }
