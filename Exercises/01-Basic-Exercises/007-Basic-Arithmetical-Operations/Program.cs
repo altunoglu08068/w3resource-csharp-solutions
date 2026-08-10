@@ -28,13 +28,13 @@ namespace BasicArithmeticalOperations
 
             if (firstNumber == 0 && secondNumber == 0)
             {
-                Console.WriteLine($"{firstNumber} / {secondNumber} \t= Uncertain");
+                Console.WriteLine($"{firstNumber} / {secondNumber} \t\t= Uncertain");
                 Console.WriteLine($"{firstNumber} mod {secondNumber} \t= Uncertain\n");
             }
             else if (secondNumber == 0)
             {
                 Console.WriteLine($"{firstNumber} / {secondNumber} \t\t= Undefined");
-                Console.WriteLine($"{firstNumber} mod {secondNumber} \t\t= Undefined\n");
+                Console.WriteLine($"{firstNumber} mod {secondNumber} \t= Undefined\n");
             }
             else
             {
