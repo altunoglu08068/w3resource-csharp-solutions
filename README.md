@@ -19,3 +19,4 @@ w3resource üzerindeki C# egzersizlerinin konu başlıklarına göre düzenlenmi
 | 005 | Swap Two Numbers | [w3resource #5](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-5.php) | [Program.cs](./Exercises/01-Basic-Exercises/005-Swap-Two-Numbers/) | Basic Exercises |
 | 006 | Multiply Three Numbers | [w3resource #6](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-6.php) | [Program.cs](./Exercises/01-Basic-Exercises/006-Multiply-Three-Numbers/) | Basic Exercises |
 | 007 | Basic Arithmetical Operations | [w3resource #7](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-7.php) | [Program.cs](./Exercises/01-Basic-Exercises/007-Basic-Arithmetical-Operations/) | Basic Exercises |
+| 008 | Multiplication Table | [w3resource #8](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-8.php) | [Program.cs](./Exercises/01-Basic-Exercises/008-Multiplication-Table/) | Basic Exercises |
