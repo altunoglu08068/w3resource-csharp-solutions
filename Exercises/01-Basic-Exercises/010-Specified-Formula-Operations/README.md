@@ -20,5 +20,5 @@ Enter the value for x: 5
 Enter the value for y: 6
 Enter the value for z: 7
 
-Result of Formula 1 ((x + y) x z): 77
-Result of Formula 2 (xy + yz): 72
+Result of Formula 1 ((x + y) · z): 77
+Result of Formula 2 (x · y + y · z): 72

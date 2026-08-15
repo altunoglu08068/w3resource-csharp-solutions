@@ -34,8 +34,8 @@ namespace SpecifiedFormulaOperations
             double result1 = Formula1(x, y, z);
             double result2 = Formula2(x, y, z);
 
-            Console.WriteLine($"\nResult of Formula 1 ((x + y) x z): {result1}");
-            Console.WriteLine($"Result of Formula 2 (xy + yz): {result2}\n");
+            Console.WriteLine($"\nResult of Formula 1 ((x + y) · z): {result1}");
+            Console.WriteLine($"Result of Formula 2 (x · y + y · z): {result2}\n");
         }
     }
 }
