@@ -24,3 +24,4 @@ w3resource üzerindeki C# egzersizlerinin konu başlıklarına göre düzenlenmi
 | 010 | Specified Formula Operations | [w3resource #10](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-10.php) | [Program.cs](./Exercises/01-Basic-Exercises/010-Specified-Formula-Operations/) | Basic Exercises |
 | 011 | Age Message | [w3resource #11](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-11.php) | [Program.cs](./Exercises/01-Basic-Exercises/011-Age-Message/) | Basic Exercises |
 | 012 | Repeat Number in Rows | [w3resource #12](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-12.php) | [Program.cs](./Exercises/01-Basic-Exercises/012-Repeat-Number-In-Rows/) | Basic Exercises |
+| 013 | Rectangle Pattern with Number | [w3resource #13](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-13.php) | [Program.cs](./Exercises/01-Basic-Exercises/013-Rectangle-Pattern-with-Number/) | Basic Exercises |
