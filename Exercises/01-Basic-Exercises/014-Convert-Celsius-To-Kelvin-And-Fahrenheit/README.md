@@ -21,8 +21,6 @@ Write a C# program to convert Celsius degrees to Kelvin and Fahrenheit.
 
 ---
 
-## 🧪 Test Data & Expected Output
+## 🧪 Sample Run
 
 ### Input
-```text
-Enter the amount of celsius: 30
