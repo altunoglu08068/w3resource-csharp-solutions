@@ -17,7 +17,7 @@ Santigrat cinsinden girilen bir sıcaklık değerini Kelvin ve Fahrenheit biriml
 
 - **Güvenli Girdi Kontrolü:** `double.TryParse` kullanılarak geçersiz girişler engellenir ve kullanıcıya renkli uyarı mesajı verilir.
 - **Modüler Yapı:** Hesaplamalar tek sorumluluk prensibine uygun olarak ifade gövdeli (expression-bodied) metotlara (`CelsiusToKelvin`, `CelsiusToFahrenheit`) ayrılmıştır.
-- **Ondalık Hassasiyeti:** Çıktılar `:F2` biçimlendirmesi ile virgülden sonra iki basamak olacak şekilde düzenlenmiştir.
+- **Hizalı ve Hassas Çıktı:** `\t` tab boşlukları ile iki nokta üst üste (`:`) hizalaması sağlanmış ve `:F2` ile virgülden sonra iki basamak formatlanmıştır.
 
 ---
 
@@ -34,8 +34,8 @@ Enter the amount of celsius: 30
 ```text
 Celsius: 30,00 °C
 
--------------------------
-Kelvin: 303,15 K
-Fahrenheit: 86,00 °F
--------------------------
+--------------------------
+Kelvin		: 303,15 K
+Fahrenheit	: 86,00 °F
+--------------------------
 ```

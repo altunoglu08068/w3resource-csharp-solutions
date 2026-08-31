@@ -32,10 +32,10 @@ namespace ConvertCelsiusToKelvinAndFahrenheit
             double fahrenheit = CelsiusToFahrenheit(celsius);
 
             Console.WriteLine($"\nCelsius: {celsius:F2} °C");
-            Console.WriteLine("\n-------------------------");
-            Console.WriteLine($"Kelvin: {kelvin:F2} K");
-            Console.WriteLine($"Fahrenheit: {fahrenheit:F2} °F");
-            Console.WriteLine("-------------------------\n");
+            Console.WriteLine("\n--------------------------");
+            Console.WriteLine($"Kelvin\t\t: {kelvin:F2} K");
+            Console.WriteLine($"Fahrenheit\t: {fahrenheit:F2} °F");
+            Console.WriteLine("--------------------------\n");
         }
     }
 }
