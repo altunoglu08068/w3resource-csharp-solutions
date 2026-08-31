@@ -1,26 +1,41 @@
 # 🌡️ Convert Celsius to Kelvin and Fahrenheit
 
-A robust C# console application that takes a Celsius temperature value from the user and accurately converts it to both **Kelvin** and **Fahrenheit**.
+Kullanıcıdan alınan Santigrat (°C) sıcaklık değerini **Kelvin (K)** ve **Fahrenheit (°F)** birimlerine dönüştüren C# konsol uygulaması.
 
 ---
 
-## 📌 Problem Description
+## 📌 Problem Tanımı
 
-Write a C# program to convert Celsius degrees to Kelvin and Fahrenheit.
+Santigrat cinsinden girilen bir sıcaklık değerini Kelvin ve Fahrenheit birimlerine çeviren bir C# programı yazınız.
 
-- **Formula (Kelvin):** `K = °C + 273.15`
-- **Formula (Fahrenheit):** `°F = (°C × 9 / 5) + 32`
-
----
-
-## 🚀 Key Features
-
-- **Input Validation:** Safe numerical parsing using `double.TryParse` with user-friendly console warning alerts.
-- **Clean Architecture:** Separate expression-bodied methods (`CelsiusToKelvin`, `CelsiusToFahrenheit`) for single-responsibility calculations.
-- **Precise Formatting:** Formatted double-precision floating-point output (`:F2`) with proper degree symbols.
+- **Kelvin Formülü:** `K = °C + 273.15`
+- **Fahrenheit Formülü:** `°F = (°C × 9 / 5) + 32`
 
 ---
 
-## 🧪 Sample Run
+## 🚀 Öne Çıkan Özellikler
 
-### Input
+- **Güvenli Girdi Kontrolü:** `double.TryParse` kullanılarak geçersiz girişler engellenir ve kullanıcıya renkli uyarı mesajı verilir.
+- **Modüler Yapı:** Hesaplamalar tek sorumluluk prensibine uygun olarak ifade gövdeli (expression-bodied) metotlara (`CelsiusToKelvin`, `CelsiusToFahrenheit`) ayrılmıştır.
+- **Ondalık Hassasiyeti:** Çıktılar `:F2` biçimlendirmesi ile virgülden sonra iki basamak olacak şekilde düzenlenmiştir.
+
+---
+
+## 🧪 Test Verileri ve Beklenen Çıktı
+
+### Giriş
+
+```text
+Enter the amount of celsius: 30
+```
+
+### Çıktı
+
+```text
+Celsius: 30,00 °C
+
+-------------------------
+Kelvin: 303,15 K
+Fahrenheit: 86,00 °F
+-------------------------
+```
