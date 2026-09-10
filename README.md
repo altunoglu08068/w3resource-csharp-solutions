@@ -32,3 +32,4 @@ w3resource üzerindeki C# egzersizlerinin konu başlıklarına göre düzenlenmi
 | 018 | Check Opposite-Signed Integers | [w3resource #18](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-18.php) | [Program.cs](./Exercises/01-Basic-Exercises/018-Check-Opposite-Signed-Integers/) | Basic Exercises |
 | 019 | Sum or Triple Sum | [w3resource #19](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-19.php) | [Program.cs](./Exercises/01-Basic-Exercises/019-Sum-Or-Triple-Sum/) | Basic Exercises |
 | 020 | Absolute Difference | [w3resource #20](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-20.php) | [Program.cs](./Exercises/01-Basic-Exercises/020-Absolute-Difference/) | Basic Exercises |
+| 021 | Check Twenty | [w3resource #21](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-21.php) | [Program.cs](./Exercises/01-Basic-Exercises/021-Check-Twenty/) | Basic Exercises |
