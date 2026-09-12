@@ -34,3 +34,4 @@ w3resource üzerindeki C# egzersizlerinin konu başlıklarına göre düzenlenmi
 | 020 | Absolute Difference | [w3resource #20](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-20.php) | [Program.cs](./Exercises/01-Basic-Exercises/020-Absolute-Difference/) | Basic Exercises |
 | 021 | Check Twenty | [w3resource #21](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-21.php) | [Program.cs](./Exercises/01-Basic-Exercises/021-Check-Twenty/) | Basic Exercises |
 | 022 | Check Within 20 of 100 or 200 | [w3resource #22](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-22.php) | [Program.cs](./Exercises/01-Basic-Exercises/022-Check-Within-Twenty/) | Basic Exercises |
+| 023 | Convert String to Lowercase | [w3resource #23](https://www.w3resource.com/csharp-exercises/basic/csharp-basic-exercise-23.php) | [Program.cs](./Exercises/01-Basic-Exercises/023-Convert-String-To-Lowercase/) | Basic Exercises |
