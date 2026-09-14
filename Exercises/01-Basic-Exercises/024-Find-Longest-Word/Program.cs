@@ -35,10 +35,9 @@ namespace FindLongestWord
                 // Ekstra boşluklardan oluşan boş elemanları temizliyorum.
                 string word = rawWord.Trim();
 
+                // Eğer kelime boş değilse ve uzunluğu en uzun kelimeden büyükse, en uzun kelimeyi güncelliyorum.
                 if (word != "" && word.Length > longestWord.Length)
-                {
                     longestWord = word;
-                }
             }
 
             return longestWord;
